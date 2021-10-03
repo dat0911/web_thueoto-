@@ -349,8 +349,8 @@ class _BookCarState extends State<BookCar> {
             GestureDetector(
               onTap: () {
                 if ( useremail != "1") {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => MapView()));
+                  // Navigator.push(context,
+                  //     MaterialPageRoute(builder: (context) => MapView()));
 
                 } else {
                   Navigator.push(context,
